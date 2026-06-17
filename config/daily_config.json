@@ -1,0 +1,8 @@
+{
+    "123456789": {
+        "time": "12-00-00",
+        "message": "默认每日发送模板",
+        "is_sent_today": true,
+        "last_update_date": "2026-06-17"
+    }
+}
