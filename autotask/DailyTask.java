@@ -41,7 +41,7 @@ public class DailyTask extends BaseTask {
         groupCfg.put("is_sent_today", false);
         groupCfg.put("last_update_date", "1970-01-01");
         groupCfg.put("status", 1);   // 1-启用，0-禁用
-        cfg.put("123456789", groupCfg);
+        cfg.put("1020859006", groupCfg);
         return cfg;
     }
 

@@ -59,6 +59,11 @@ void onManageGroupTask(int chatType, String peerUin, String peerName) {
         groupTaskConfigHandler.showManagementDialog(chatType, peerUin, peerName);
     }
 }
+void onClearLogClick(int chatType, String peerUin, String peerName) {
+    if (clearLogHandler != null) {
+        clearLogHandler.handleClearLog(chatType, peerUin, peerName);
+    }
+}
 
 // ---------------- 5. 脚本执行入口 ----------------
 log("=========================");

@@ -25,7 +25,6 @@ public class ClearLogHandler {
             fw.write("");  // 写入空字符串
             fw.flush();
             qqToast(2, "日志已清空");
-            log("用户手动清空了日志文件");
         } catch (IOException e) {
             qqToast(1, "清空日志失败: " + e.getMessage());
             log("清空日志异常: " + e.getMessage());

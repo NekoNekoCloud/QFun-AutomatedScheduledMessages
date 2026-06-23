@@ -34,7 +34,7 @@ public class IntervalTask extends BaseTask {
         groupCfg.put("message", "默认间隔发送模板");
         groupCfg.put("last_sent_time", 0L);
         groupCfg.put("status", 1);   // 1-启用，0-禁用
-        cfg.put("123456789", groupCfg);
+        cfg.put("1020859006", groupCfg);
         return cfg;
     }
 
